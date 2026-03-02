@@ -11,7 +11,7 @@ export default function Story() {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
       <div className="mx-auto max-w-6xl px-4 md:grid md:grid-cols-2 md:items-center md:gap-10">
-        {/* Text left */}
+        {/* Text */}
         <div className="space-y-6">
           <div className="flex items-center gap-4 text-[12px] font-semibold uppercase text-[#A8D1E7]">
             <span className="text-[#336699] text-xl">Brand story</span>
@@ -34,7 +34,7 @@ export default function Story() {
           </p>
         </div>
 
-        {/* Image right */}
+        {/* Image */}
         <div className="mt-8 flex justify-center md:mt-0">
           <div className="relative w-full max-w-sm overflow-hidden rounded-2xl bg-[#f5f7fb]">
             <img

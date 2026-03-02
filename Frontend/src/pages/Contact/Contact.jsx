@@ -1,4 +1,3 @@
-// src/pages/Contact/Contact.jsx
 import { useState } from "react";
 import Navbar from "../../components/Navbar.jsx";
 import Footer from "../../components/Footer.jsx";

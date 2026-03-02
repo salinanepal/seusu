@@ -83,7 +83,7 @@ export default function Products() {
         </div>
       </section>
 
-      {/* Grey area with product cards */}
+      {/*product cards */}
       <main className="bg-[#fafafa] py-16">
         <div className="mx-auto max-w-6xl px-4">
           <div className="space-y-12">

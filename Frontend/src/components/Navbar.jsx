@@ -41,7 +41,6 @@ export default function Navbar() {
           <img src={Logo} alt="Seusu Skin" className="h-12 w-15 md:h-12" />
         </button>
 
-        {/* Center brand button */}
         <button
           onClick={() => navigate("/")}
           className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
@@ -52,7 +51,7 @@ export default function Navbar() {
 
         {/* Desktop nav */}
         <div className="hidden items-center gap-8 md:flex">
-          {/* Products with dropdown */}
+          {/* Products dropdown */}
           <div className="relative group">
             <NavLink
               to="/products"
@@ -82,7 +81,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Contact link */}
+          {/* Contact*/}
           <NavLink
             to="/contact"
             className={({ isActive }) =>
@@ -94,7 +93,7 @@ export default function Navbar() {
             Contact
           </NavLink>
 
-          {/* Shop Now button */}
+          {/* Shop Now*/}
           <NavLink
             to="/shop"
             className="rounded-sm px-5 py-2 text-[12px] font-bold uppercase text-white transition hover:opacity-90"

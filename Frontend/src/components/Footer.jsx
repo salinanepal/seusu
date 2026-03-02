@@ -75,9 +75,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom row */}
         <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-[#eaeaea] pt-4 text-[12px]  md:flex-row">
-          <p>© {new Date().getFullYear()} SEUSU SKIN. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SEUSU SKIN. All rights reserved.</p>
           <div className="flex gap-4">
             <button>Privacy</button>
             <button>Terms</button>

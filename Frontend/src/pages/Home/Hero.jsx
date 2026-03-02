@@ -16,11 +16,12 @@ export default function Hero() {
           "radial-gradient(circle at top, #336699 0%, #1a3f5c 55%, #0d2435 100%)",
       }}
     >
-      {/* Soft circles */}
+      {/*circles */}
       <div className="pointer-events-none absolute -right-32 -top-40 h-[55vw] w-[55vw] max-h-175 max-w-175 rounded-full border border-[rgba(168,209,231,0.2)] bg-[rgba(168,209,231,0.12)]" />
       <div className="pointer-events-none absolute -bottom-40 -left-24 h-[40vw] w-[40vw] max-h-125 max-w-125 rounded-full border border-[rgba(142,124,195,0.2)] bg-[rgba(142,124,195,0.12)]" />
 
       <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 pb-16 pt-32 md:flex-row md:items-center">
+        
         {/* Left side */}
 
         <motion.div
